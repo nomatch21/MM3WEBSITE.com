@@ -1,0 +1,86 @@
+*{
+	margin:0;
+}
+body{
+	background: url('img/bsba1.jpg');
+	background-size: cover;
+	height: 0px;
+	background-repeat: none;
+}
+
+.head{
+	background: rgba(255, 255 , 255, 1);
+	padding: 20px;
+}
+.head img{
+	margin-right: 150px;
+}
+.navig{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+ul a{
+	text-decoration: none;
+	color: black;
+	margin: 10px;
+	padding: 20px;
+	font-size: 23px;
+	font-weight: bolder;
+}
+.whole{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.students{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 550px;
+	background: rgba(255, 255 , 255, 1);
+	margin-top:
+	padding: 10px;
+
+}
+
+.students p{
+	text-align: justify;
+	margin-right: 50px;
+	margin-left: 20px;
+}
+.students h4{
+	margin-top: 20px;
+}
+.students img{
+	border-radius: 200px;
+	margin-top: 20px;
+	-icab-box-shadow:   1px 12px 9px #555;
+	-khtml-box-shadow:  1px 12px 9px #555;
+	-moz-box-shadow:    1px 12px 9px #555;
+	-webkit-box-shadow: 1px 12px 9px #555;
+	box-shadow:         1px 12px 9px #555;
+	cursor:pointer;
+}
+.students img:hover{
+	transition: .5s;
+	padding: 10px;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #333333;
+	padding: 10px;
+
+}
+footer h5{
+	color: white;
+}
+

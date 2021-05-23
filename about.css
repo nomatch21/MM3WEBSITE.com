@@ -1,0 +1,112 @@
+*{
+	margin:0;
+}
+body{
+	background: url('img/bsba1.jpg');
+	background-size: cover;
+	height: 0px;
+	background-repeat: none;
+}
+
+.head{
+	background: rgba(255, 255 , 255, 1);
+	padding: 20px;
+}
+.head img{
+	margin-right: 150px;
+}
+.navig{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+ul a{
+	text-decoration: none;
+	color: black;
+	margin: 10px;
+	padding: 20px;
+	font-size: 23px;
+	font-weight: bolder;
+}
+.whole{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.students{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 550px;
+	background: rgba(255, 255 , 255, 1);
+	margin-top:
+	border-radius: 20px;
+	padding: 50px;
+
+}
+
+.students p{
+	text-align: justify;
+	margin-right: 50px;
+	margin-left: 20px;
+}
+.students h1{
+	margin-top: 20px;
+}
+.about{
+	font-size: 70px;
+	font-weight: bold;
+	margin-bottom: px;
+	color: #b30000;
+	text-shadow: 2px 2px 2px #595959;
+}
+.about a{
+	text-decoration: none;
+	font-size: 70px;
+	font-weight: bold;
+	margin-bottom: px;
+	color: #b30000;
+	text-shadow: 2px 2px 2px #595959;
+	transition: .5s;
+}
+.students img{
+	border-radius: 10px;
+	margin-top: 20px;
+	-icab-box-shadow:   1px 12px 9px #555;
+	-khtml-box-shadow:  1px 12px 9px #555;
+	-moz-box-shadow:    1px 12px 9px #555;
+	-webkit-box-shadow: 1px 12px 9px #555;
+	box-shadow:         1px 12px 9px #555;
+}
+
+.pic{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+}
+.pic img{
+	margin: 30px;
+}
+.students h3{
+	margin-top: 20px;
+}
+h5{
+	color: grey;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #333333;
+	padding: 10px;
+
+}
+footer h5{
+	color: white;
+}
